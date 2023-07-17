@@ -2,6 +2,9 @@ import React from "react";
 import { useEffect } from "react";
 import Aos from "aos";
 import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/UI/Hero";
 
 function App() {
   useEffect(() => {
@@ -9,12 +12,13 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen bg-red-600 text-black">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia nostrum
-      quibusdam placeat. Ipsa dicta temporibus, rem quos modi eligendi
-      accusantium soluta repellendus quis non nisi maiores excepturi nemo
-      eveniet eaque?
-    </div>
+    <>
+      <Header />
+      <main>
+        <Hero />
+      </main>
+      <Footer />
+    </>
   );
 }
 
