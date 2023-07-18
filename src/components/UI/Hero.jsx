@@ -35,7 +35,7 @@ const Hero = () => {
                 gap-2 hover:bg-smallTextColor ease-in duration-300
                 py-2 px-4 rounded-[8px]"
                 >
-                  <i class="ri-mail-line"></i>
+                  <i className="ri-mail-line"></i>
                   Hire me
                 </button>
               </a>
@@ -55,7 +55,7 @@ const Hero = () => {
                 leading-7 sm:pl-14 sm:pr-10 "
             >
               <span className="">
-                <i class="ri-apps-2-line"></i>
+                <i className="ri-apps-2-line"></i>
               </span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
               veritatis, aliquid inventore provident ad laudantium.
@@ -69,7 +69,7 @@ const Hero = () => {
                   href="#github"
                   className="text-smallTextColor text-[15px] font-[600]"
                 >
-                  <i class="ri-github-fill"></i>
+                  <i className="ri-github-fill"></i>
                 </a>
               </span>
               <span className="">
@@ -77,7 +77,7 @@ const Hero = () => {
                   href="#linkedin"
                   className="text-smallTextColor text-[15px] font-[600]"
                 >
-                  <i class="ri-linkedin-box-fill"></i>
+                  <i className="ri-linkedin-box-fill"></i>
                 </a>
               </span>
               <span className="">
@@ -85,7 +85,7 @@ const Hero = () => {
                   href="#instagram"
                   className="text-smallTextColor text-[15px] font-[600]"
                 >
-                  <i class="ri-instagram-line"></i>
+                  <i className="ri-instagram-line"></i>
                 </a>
               </span>
             </div>
@@ -99,6 +99,38 @@ const Hero = () => {
             </figure>
           </div>
           {/* :::::::::: HERO IMG END :::::::::: */}
+          {/* :::::::::: HERO CONTENT RIGHT :::::::::: */}
+
+          <div
+            className="md:basis-1/5 flex justify-between text-center mt-18 flex-wrap gap-3 md:mt-0 
+          md:flex-col md:justify-end md:text-end "
+          >
+            <div className="mb-10">
+              <h2 className="text-headingColor font-[700] text-[32px]">
+                <CountUp start={0} end={1} duration={2} suffix="*" />
+              </h2>
+              <h4 className="text-headingColor font-[600] text-[32px]">
+                Year of Experiance
+              </h4>
+            </div>
+            <div className="mb-10">
+              <h2 className="text-headingColor font-[700] text-[32px]">
+                <CountUp start={0} end={100} duration={2} suffix="%" />
+              </h2>
+              <h4 className="text-headingColor font-[600] text-[32px]">
+                Succes Rate
+              </h4>
+            </div>{" "}
+            <div className="mb-10">
+              <h2 className="text-headingColor font-[700] text-[32px]">
+                <CountUp start={0} end={38} duration={2} suffix="*" />
+              </h2>
+              <h4 className="text-headingColor font-[600] text-[32px]">
+                Project Completed
+              </h4>
+            </div>
+          </div>
+          {/* :::::::::: HERO CONTENT RIGHT END :::::::::: */}
         </div>
       </div>
     </section>

@@ -141,7 +141,7 @@ const portfolios = [
   {
     id: "14",
     imgUrl: portfolioImg07,
-    category: "ux",
+    category: "Ux",
     title: "Appointment Booking Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
