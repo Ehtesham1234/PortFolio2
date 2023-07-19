@@ -39,28 +39,28 @@ const Portfolio = () => {
       <div className="container">
         <div className="flex items-center justify-between flex-wrap">
           <div className="mb--7 sm:mb-0">
-            <h3 className="text-headingColor text-[2rem] font-[700]">
+            <h3 className="text-headingColor dark:text-headingColorDark text-[2rem] font-[700]">
               My Recent Projects
             </h3>
           </div>
           <div className="flex gap-3">
             <button
               onClick={() => setSelectTab("all")}
-              className="text-smallTextColor border border-solid border-smallTextColor 
+              className="text-smallTextColor dark:text-smallTextColorDark border border-solid border-smallTextColor dark:border-smallTextColorDark
             py-2 px-4 rounded-[8px]"
             >
               All
             </button>
             <button
               onClick={() => setSelectTab("web-design")}
-              className="text-smallTextColor border border-solid border-smallTextColor 
+              className="text-smallTextColor dark:text-smallTextColorDark border border-solid border-smallTextColor dark:border-smallTextColorDark
             py-2 px-4 rounded-[8px]"
             >
               Web Design
             </button>
             <button
               //   onClick={() => setSelectTab("ux-design")}
-              className="text-smallTextColor border border-solid border-smallTextColor 
+              className="text-smallTextColor dark:text-smallTextColorDark  border border-solid border-smallTextColor dark:border-smallTextColorDark
             py-2 px-4 rounded-[8px]"
             >
               Ux Design
@@ -84,13 +84,13 @@ const Portfolio = () => {
                 <img src={portfolio.imgUrl} alt="" className="rounded-[8px] " />
               </figure>
               <div
-                className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 lest-0 z-[5]
+                className="w-full h-full bg-primaryColor dark:bg-primaryColorDark bg-opacity-40 dark:bg-opacity-40 absolute top-0 lest-0 z-[5]
                 hidden group-hover:block "
               >
                 <div className="w-full h-full flex items-center justify-center">
                   <button
                     onClick={() => showModalHAndler(portfolio.id)}
-                    className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] 
+                    className="text-white dark:text-black  bg-headingColor dark:bg-headingColorDark hover:bg-smallTextColor dark:hover:bg-smallTextColorDark py-2 px-4 rounded-[8px] 
                   font-[500] ease-in duration-200"
                   >
                     See details
@@ -104,7 +104,7 @@ const Portfolio = () => {
           {nextItems < portfolios.length && data.length > 6 && (
             <button
               onClick={loadMoreHandler}
-              className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] 
+              className="text-white dark:text-black bg-primaryColor dark:bg-primaryColorDark hover:bg-smallTextColor dark:hover:bg-smallTextColorDark  py-2 px-4 rounded-[8px] 
                   font-[500] ease-in duration-200"
             >
               Load More
