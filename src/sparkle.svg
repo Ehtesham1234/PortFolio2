@@ -1,0 +1,76 @@
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 512 512"
+  xml:space="preserve"
+  fill="#FFFFFF"
+  width="512px"
+  height="512px"
+>
+  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+  <g
+    id="SVGRepo_tracerCarrier"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  ></g>
+  <g id="SVGRepo_iconCarrier">
+    <circle
+      cx="256"
+      cy="256"
+      r="40.837"
+      transform="matrix(0.719 0.6952 -0.6952 0.719 256 159.3851)"
+      fill="#ffc107"
+    ></circle>
+    <circle
+      cx="256"
+      cy="256"
+      r="40.836"
+      transform="matrix(0.7191 -0.6949 0.6949 0.7191 -69.8352 256.2822)"
+      fill="#ffc107"
+    ></circle>
+    <circle
+      cx="256"
+      cy="256"
+      r="40.837"
+      transform="matrix(0.7188 0.6954 -0.6954 0.7188 256.0749 352.6142)"
+      fill="#ffc107"
+    ></circle>
+    <circle
+      cx="256"
+      cy="256"
+      r="40.837"
+      transform="matrix(0.7187 -0.6955 0.6955 0.7187 83.6151 447.2232)"
+      fill="#ffc107"
+    ></circle>
+    <circle
+      cx="256"
+      cy="256"
+      r="40.837"
+      transform="matrix(0.7188 0.6954 -0.6954 0.7188 352.614 255.9259)"
+      fill="#ffc107"
+    ></circle>
+    <circle
+      cx="256"
+      cy="256"
+      r="40.836"
+      transform="matrix(0.7191 -0.6949 0.6949 0.7191 447.2393 69.8389)"
+      fill="#ffc107"
+    ></circle>
+    <circle
+      cx="256"
+      cy="256"
+      r="40.837"
+      transform="matrix(0.7187 0.6955 -0.6955 0.7187 159.3848 255.0729)"
+      fill="#ffc107"
+    ></circle>
+    <circle
+      cx="256"
+      cy="256"
+      r="40.836"
+      transform="matrix(0.719 -0.6958 0.6958 0.719 -0.2287 256.2058)"
+      fill="#ffc107"
+    ></circle>
+  </g>
+</svg>
