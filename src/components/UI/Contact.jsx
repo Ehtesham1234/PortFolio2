@@ -1,4 +1,7 @@
 import React from "react";
+("use client");
+
+import { Button, Label, TextInput, Textarea } from "flowbite-react";
 
 const Contact = () => {
   return (
@@ -61,6 +64,55 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
+
+            {/* FlowBite form */}
+            {/* <form className="flex max-w-md flex-col gap-4 w-full">
+              <div>
+                <div className="mb-2 block">
+                  <Label htmlFor="name" value="name" />
+                </div>
+                <TextInput
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                  type="text"
+                />
+              </div>
+              <div>
+                <div className="mb-2 block">
+                  <Label htmlFor="email1" value="email" />
+                </div>
+                <TextInput
+                  id="email1"
+                  placeholder="name@gamil.com"
+                  required
+                  type="email"
+                />
+              </div>
+              <div>
+                <div className="mb-2 block">
+                  <Label htmlFor="subject" value="subject" />
+                </div>
+                <TextInput
+                  id="subject"
+                  placeholder="Enter your subject"
+                  required
+                  type="text"
+                />
+              </div>
+              <div className="max-w-md" id="textarea">
+                <div className="mb-2 block">
+                  <Label htmlFor="comment" value="Your message" />
+                </div>
+                <Textarea
+                  id="comment"
+                  placeholder="Leave a comment..."
+                  required
+                  rows={4}
+                />
+              </div>
+              <Button type="submit">Submit</Button>
+            </form> */}
           </div>
         </div>
       </div>

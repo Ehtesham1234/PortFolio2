@@ -102,7 +102,7 @@ const Portfolio = () => {
         </div>
         <div className="text-center mt-6">
           {nextItems < portfolios.length && data.length > 6 && (
-            <button
+             <button
               onClick={loadMoreHandler}
               className="text-white dark:text-black bg-primaryColor dark:bg-primaryColorDark hover:bg-smallTextColor dark:hover:bg-smallTextColorDark  py-2 px-4 rounded-[8px] 
                   font-[500] ease-in duration-200"

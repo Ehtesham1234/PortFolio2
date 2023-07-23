@@ -48,6 +48,7 @@ function App() {
     }
   }, [theme]);
 
+  //bg-[#e0d2b4] bg-gradient-to-r from-[#e0d2b4] via-[#e2ac6b] to-[#e2ac6b] dark:bg-[#212121] dark:bg-gradient-to-r dark:from-black dark:via-gray-500 dark:to-gray-700
   return (
     <div className="dark:bg-[#212121]">
       <Header themeChange={themeChange} open={open} />
