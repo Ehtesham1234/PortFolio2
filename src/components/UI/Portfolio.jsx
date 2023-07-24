@@ -78,10 +78,14 @@ const Portfolio = () => {
               data-aos="fade-zoom-in"
               data-aos-delay="50"
               deta-aos-duration="1000"
-              className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]"
+              className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1] h-[300px]"
             >
               <figure>
-                <img src={portfolio.imgUrl} alt="" className="rounded-[8px] " />
+                <img
+                  src={portfolio.imgUrl}
+                  alt=""
+                  className="rounded-[8px]  h-full object-cover "
+                />
               </figure>
               <div
                 className="w-full h-full bg-primaryColor dark:bg-primaryColorDark bg-opacity-40 dark:bg-opacity-40 absolute top-0 lest-0 z-[5]
@@ -102,7 +106,7 @@ const Portfolio = () => {
         </div>
         <div className="text-center mt-6">
           {nextItems < portfolios.length && data.length > 6 && (
-             <button
+            <button
               onClick={loadMoreHandler}
               className="text-white dark:text-black bg-primaryColor dark:bg-primaryColorDark hover:bg-smallTextColor dark:hover:bg-smallTextColorDark  py-2 px-4 rounded-[8px] 
                   font-[500] ease-in duration-200"

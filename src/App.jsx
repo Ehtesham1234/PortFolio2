@@ -8,6 +8,7 @@ import Hero from "./components/UI/Hero";
 import Services from "./components/UI/Services";
 import Portfolio from "./components/UI/Portfolio";
 import Contact from "./components/UI/Contact";
+import { DarkThemeToggle, Flowbite } from "flowbite-react";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -50,16 +51,19 @@ function App() {
 
   //bg-[#e0d2b4] bg-gradient-to-r from-[#e0d2b4] via-[#e2ac6b] to-[#e2ac6b] dark:bg-[#212121] dark:bg-gradient-to-r dark:from-black dark:via-gray-500 dark:to-gray-700
   return (
-    <div className="dark:bg-[#212121]">
-      <Header themeChange={themeChange} open={open} />
-      <main>
-        <Hero />
-        <Services />
-        <Portfolio />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Flowbite>
+      {/* <DarkThemeToggle /> */}
+      <div className="dark:bg-[#212121]">
+        <Header themeChange={themeChange} open={open} />
+        <main>
+          <Hero />
+          <Services />
+          <Portfolio />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </Flowbite>
   );
 }
 
