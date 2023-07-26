@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section id="contact" className="pb-16">
       <div className="container">
-        <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">
+        <h2 className="text-headingColor dark:text-headingColorDark font-[700] text-[2.5rem] mb-8">
           Get in touch
         </h2>
         <div className="md:flex justify-between items-center">
@@ -28,6 +28,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Enter your name"
+                  required
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
@@ -36,6 +37,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Enter your email"
+                  required
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
@@ -53,6 +55,7 @@ const Contact = () => {
                   type="text"
                   rows={3}
                   placeholder="Enter your message"
+                  required
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
@@ -64,55 +67,6 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
-
-            {/* FlowBite form */}
-            {/* <form className="flex max-w-md flex-col gap-4 w-full">
-              <div>
-                <div className="mb-2 block">
-                  <Label htmlFor="name" value="name" />
-                </div>
-                <TextInput
-                  id="name"
-                  placeholder="Enter your name"
-                  required
-                  type="text"
-                />
-              </div>
-              <div>
-                <div className="mb-2 block">
-                  <Label htmlFor="email1" value="email" />
-                </div>
-                <TextInput
-                  id="email1"
-                  placeholder="name@gamil.com"
-                  required
-                  type="email"
-                />
-              </div>
-              <div>
-                <div className="mb-2 block">
-                  <Label htmlFor="subject" value="subject" />
-                </div>
-                <TextInput
-                  id="subject"
-                  placeholder="Enter your subject"
-                  required
-                  type="text"
-                />
-              </div>
-              <div className="max-w-md" id="textarea">
-                <div className="mb-2 block">
-                  <Label htmlFor="comment" value="Your message" />
-                </div>
-                <Textarea
-                  id="comment"
-                  placeholder="Leave a comment..."
-                  required
-                  rows={4}
-                />
-              </div>
-              <Button type="submit">Submit</Button>
-            </form> */}
           </div>
         </div>
       </div>

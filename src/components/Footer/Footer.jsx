@@ -35,7 +35,8 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
                 <a
-                  href="#github"
+                  href="https://github.com/Ehtesham1234"
+                  target="_blank"
                   className="text-gray-300 font-[500] text-[18px] "
                 >
                   <i className="ri-github-line"></i>
@@ -43,7 +44,8 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
                 <a
-                  href="#linkedin"
+                  href="https://www.linkedin.com/in/ehtesham-usman-aa41a022b/"
+                  target="_blank"
                   className="text-gray-300 font-[500] text-[18px] "
                 >
                   <i className="ri-linkedin-box-line"></i>
@@ -61,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="menu">
+        {/* <div className="menu">
           <ul className="flex items-center justify-center gap-10">
             <li>
               <a
@@ -96,7 +98,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       {/* :::::::::::: Footer Top End :::::::::::::: */}
       {/* :::::::::::: Footer Bottom :::::::::::::: */}

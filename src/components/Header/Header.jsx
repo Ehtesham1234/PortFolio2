@@ -132,7 +132,7 @@ const Header = ({ themeChange, open }) => {
     <Navbar
       fluid
       rounded
-      className="sticky top-0 left-0
+      className="leading-[80px] sticky top-0 left-0
     z-[99]  bg-white shadow-md dark:bg-[#212121]"
     >
       <Navbar.Brand href="#">
@@ -181,26 +181,25 @@ const Header = ({ themeChange, open }) => {
       <Navbar.Collapse>
         <Navbar.Link
           href="#about"
-          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[15px]"
+          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >
-          {" "}
           About
         </Navbar.Link>
         <Navbar.Link
           href="#services"
-          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[15px]"
+          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >
           Services
         </Navbar.Link>
         <Navbar.Link
           href="#portfolio"
-          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[15px]"
+          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >
           Portfolio
         </Navbar.Link>
         <Navbar.Link
           href="#contact"
-          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[15px]"
+          className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >
           Contact
         </Navbar.Link>

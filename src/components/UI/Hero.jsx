@@ -66,7 +66,8 @@ const Hero = () => {
               </span>
               <span className="">
                 <a
-                  href="#github"
+                  href="https://github.com/Ehtesham1234"
+                  target="_blank"
                   className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]"
                 >
                   <i className="ri-github-fill"></i>
@@ -74,7 +75,8 @@ const Hero = () => {
               </span>
               <span className="">
                 <a
-                  href="#linkedin"
+                  href="https://www.linkedin.com/in/ehtesham-usman-aa41a022b/"
+                  target="_blank"
                   className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]"
                 >
                   <i className="ri-linkedin-box-fill"></i>
