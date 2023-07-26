@@ -133,7 +133,7 @@ const Header = ({ themeChange, open }) => {
       fluid
       rounded
       className="leading-[80px] sticky top-0 left-0
-    z-[99]  bg-white shadow-md dark:bg-[#212121]"
+    z-[99]  bg-[#ffffff] shadow-md dark:bg-[#050505]"
     >
       <Navbar.Brand href="#">
         <div className="flex items-center gap-[10px] ">

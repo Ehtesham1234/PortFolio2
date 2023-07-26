@@ -53,7 +53,7 @@ function App() {
   return (
     <Flowbite>
       {/* <DarkThemeToggle /> */}
-      <div className="dark:bg-[#212121]">
+      <div className="dark:bg-[#050505] bg-[#ffffff]">
         <Header themeChange={themeChange} open={open} />
         <main>
           <Hero />
