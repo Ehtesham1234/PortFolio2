@@ -83,7 +83,7 @@ const Services = () => {
                           className="text-primaryColor dark:text-primaryColorDark font-[700] mb-3 group-hover:text-white
                            dark:group-hover:text-black group-hover:font-[600] text-xl "
                         >
-                          Frontend Development
+                          Backend Development
                         </h3>
                         <p
                           className="text-[15px] text-smallTextColor dark:text-smallTextColorDark group-hover:text-white
@@ -124,7 +124,7 @@ const Services = () => {
                           className="text-primaryColor dark:text-primaryColorDark font-[700] mb-3 group-hover:text-white
                           dark:group-hover:text-black  group-hover:font-[600] text-xl "
                         >
-                          UI-UX Design
+                          Full Stack Development
                         </h3>
                         <p
                           className="text-[15px] text-smallTextColor dark:text-smallTextColorDark group-hover:text-white
@@ -150,7 +150,7 @@ const Services = () => {
               </div>
 
               {/* :::::::::: Right Card ::::::::::: */}
-              <div className=" mt-6 sm:mt-0 sm:mb-12">
+              {/* <div className=" mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-end w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pl-8">
@@ -187,7 +187,7 @@ const Services = () => {
                     </figure>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

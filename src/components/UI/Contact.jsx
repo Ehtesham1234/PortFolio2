@@ -1,7 +1,7 @@
 import React from "react";
 ("use client");
 
-import { Button, Label, TextInput, Textarea } from "flowbite-react";
+// import { Button, Label, TextInput, Textarea } from "flowbite-react";
 
 const Contact = () => {
   return (
@@ -23,11 +23,17 @@ const Contact = () => {
           </div>
 
           <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 dark:bg-gray-500 px-4 lg:px-8 py-8 ">
-            <form className="w-full">
+            <form
+              className="w-full"
+              action="https://formspree.io/f/moqovonr"
+              method="POST"
+            >
               <div className="mb-5">
                 <input
                   type="text"
+                  name="username"
                   placeholder="Enter your name"
+                  autoComplete="off"
                   required
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
@@ -35,8 +41,10 @@ const Contact = () => {
 
               <div className="mb-5">
                 <input
-                  type="text"
+                  type="email"
+                  name="email"
                   placeholder="Enter your email"
+                  autoComplete="off"
                   required
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
@@ -45,7 +53,9 @@ const Contact = () => {
               <div className="mb-5">
                 <input
                   type="text"
+                  name="Subject"
                   placeholder="Subject"
+                  autoComplete="off"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
@@ -53,14 +63,18 @@ const Contact = () => {
               <div className="mb-5">
                 <textarea
                   type="text"
+                  name="message"
+                  // cols={30}
                   rows={3}
                   placeholder="Enter your message"
+                  autoComplete="off"
                   required
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
 
               <button
+                type="submit"
                 className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white
               hover:bg-headingColor text-center ease-linear duration-150"
               >
