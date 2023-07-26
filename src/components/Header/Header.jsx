@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { Navbar } from "flowbite-react";
 const Header = ({ themeChange, open }) => {
   // const [menuOpen, setMenuOpen] = useState(false);
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-  //   const targetAttr = e.target.getAttribute("href");
-  //   const location = document.querySelector(targetAttr).offsetTop;
-  //   window.scrollTo({
-  //     top: location - 80,
-  //     left: 0,
-  //   });
-  // };
+  const handleClick = (e) => {
+    e.preventDefault();
+    const targetAttr = e.target.getAttribute("href");
+    const location = document.querySelector(targetAttr).offsetTop;
+    window.scrollTo({
+      top: location - 80,
+      left: 0,
+    });
+  };
 
   // const handleMenu = () => {
   //   setMenuOpen((prev) => !prev);
@@ -133,7 +133,7 @@ const Header = ({ themeChange, open }) => {
       fluid
       rounded
       className="leading-[80px] sticky top-0 left-0
-    z-[99]  bg-[#ffffff] shadow-md dark:bg-[#050505]"
+    z-[99]  bg-[#ded1f3] shadow-md dark:bg-[#161515]"
     >
       <Navbar.Brand href="#">
         <div className="flex items-center gap-[10px] ">
@@ -159,7 +159,7 @@ const Header = ({ themeChange, open }) => {
           <button
             onClick={() => themeChange()}
             className="flex items-center flex-row gap-2 text-smallTextColor dark:text-smallTextColorDark font-[600] border border-solid
-             border-smallTextColor dark:border-smallTextColorDark py-2 px-4 rounded-[8px] max-h-[48px] hover:bg-smallTextColor  dark:hover:bg-smallTextColorDark
+             border-smallTextColor dark:border-smallTextColorDark py-2 px-4 rounded-[8px] max-h-[48px] hover:bg-smallTextColor  dark:hover:bg-[#e5de44]
               hover:text-white dark:hover:text-smallTextColor hover:font-[500] ease-in duration-300 overflow-hidden"
           >
             {open ? (
@@ -180,24 +180,28 @@ const Header = ({ themeChange, open }) => {
       </div>
       <Navbar.Collapse>
         <Navbar.Link
+          onClick={handleClick}
           href="#about"
           className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >
           About
         </Navbar.Link>
         <Navbar.Link
+          onClick={handleClick}
           href="#services"
           className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >
           Services
         </Navbar.Link>
         <Navbar.Link
+          onClick={handleClick}
           href="#portfolio"
           className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >
           Portfolio
         </Navbar.Link>
         <Navbar.Link
+          onClick={handleClick}
           href="#contact"
           className="text-smallTextColor dark:text-smallTextColorDark font-[800] text-[17px] md:mr-10"
         >

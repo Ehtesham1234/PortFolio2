@@ -78,7 +78,7 @@ const Portfolio = () => {
               data-aos="fade-zoom-in"
               data-aos-delay="50"
               deta-aos-duration="1000"
-              className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1] h-[300px]"
+              className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1] "
             >
               <figure>
                 <img
@@ -108,7 +108,7 @@ const Portfolio = () => {
           {nextItems < portfolios.length && data.length > 6 && (
             <button
               onClick={loadMoreHandler}
-              className="text-white dark:text-black bg-primaryColor dark:bg-primaryColorDark hover:bg-smallTextColor dark:hover:bg-smallTextColorDark  py-2 px-4 rounded-[8px] 
+              className="text-white dark:text-black bg-primaryColor dark:bg-primaryColorDark hover:bg-headingColor dark:hover:bg-headingColorDark  py-2 px-4 rounded-[8px] 
                   font-[500] ease-in duration-200"
             >
               Load More

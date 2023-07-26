@@ -75,8 +75,8 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white
-              hover:bg-headingColor text-center ease-linear duration-150"
+                className="w-full p-3 focus:outline-none rounded-[5px] bg-primaryColor dark:bg-primaryColorDark text-white
+              hover:bg-headingColor dark:hover:bg-headingColorDark text-center ease-linear duration-150"
               >
                 Send Message
               </button>

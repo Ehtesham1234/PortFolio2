@@ -32,7 +32,7 @@ const Hero = () => {
               <a href="#contact" download={""}>
                 <button
                   className="bg-primaryColor dark:bg-primaryColorDark text-white dark:text-black font-[500] flex items-center 
-                gap-2 hover:bg-smallTextColor dark:hover:bg-smallTextColorDark ease-in duration-300
+                gap-2 hover:bg-headingColor  dark:hover:bg-headingColorDark ease-in duration-300
                 py-2 px-4 rounded-[8px]"
                 >
                   <i className="ri-mail-line"></i>
