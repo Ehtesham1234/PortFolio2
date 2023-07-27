@@ -1,5 +1,5 @@
 import React from "react";
-
+import Resume from "../../assets/Cv/Resume_Ehtesham_Usman.pdf";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
@@ -11,10 +11,10 @@ const Footer = () => {
             <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]">
               Do you wants to make beautiful products
             </h2>
-            <a href="#contact">
+            <a href="#contact" download={Resume}>
               <button
                 className="bg-primaryColor dark:bg-primaryColorDark text-white dark:text-black font-[500] flex items-center 
-                gap-2 hover:bg-headingColor dark:hover:bg-headingColorDark ease-in duration-300
+                gap-2 hover:bg-headingColor  dark:hover:bg-headingColorDark ease-in duration-300
                 py-2 px-4 rounded-[8px]"
               >
                 <i className="ri-mail-line"></i>
@@ -25,9 +25,12 @@ const Footer = () => {
 
           <div className="w-full sm:w-1/2 ">
             <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-              eligendi voluptas aperiam odio qui ea esse numquam explicabo nobis
-              iusto.
+              I am a junior React developer with experience in frontend
+              development. I am currently seeking internship opportunities to
+              further develop my skills. If you are looking for a dedicated and
+              hardworking developer, please don’t hesitate to reach out to me.
+              Thank you for considering me for any junior React developer or
+              internship positions.
             </p>
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
               <span className="text-gray-300 font-[600] text-[15px]">

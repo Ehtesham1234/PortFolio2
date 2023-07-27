@@ -1,7 +1,8 @@
 import React from "react";
 import heroImg from "../../assets/images/frontenImg.png";
+import Resume from "../../assets/Cv/Resume_Ehtesham_Usman.pdf";
 import CountUp from "react-countup";
-const Hero = () => {
+const Hero = ({ handleClick }) => {
   return (
     <section className="pt-0 " id="about">
       <div className="container pt-14">
@@ -29,7 +30,7 @@ const Hero = () => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-              <a href="#contact" download={""}>
+              <a href="#contact" download={Resume}>
                 <button
                   className="bg-primaryColor dark:bg-primaryColorDark text-white dark:text-black font-[500] flex items-center 
                 gap-2 hover:bg-headingColor  dark:hover:bg-headingColorDark ease-in duration-300
@@ -41,6 +42,7 @@ const Hero = () => {
               </a>
               <a
                 href="#portfolio"
+                onClick={handleClick}
                 className="text-smallTextColor dark:text-smallTextColorDark font-[600] text-[16px]
                border-b border-solid border-smallTextColor dark:border-smallTextColorDark "
               >
@@ -57,8 +59,8 @@ const Hero = () => {
               <span className="">
                 <i className="ri-apps-2-line"></i>
               </span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-              veritatis, aliquid inventore provident ad laudantium.
+              Hi , I'm Ehtesham Usman. A Passionate Front-End React Developer
+              based in Asansol, India.
             </p>
             <div className="flex item-center gap-9 mt-14">
               <span className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]">
@@ -91,6 +93,48 @@ const Hero = () => {
                 </a>
               </span>
             </div>
+            <div className="flex item-center gap-9 mt-14">
+              <span className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]">
+                My Skills:
+              </span>
+              <span className="gap-2 dark:text-white">
+                HTML :
+                <a
+                  href="#"
+                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                >
+                  <i className="ri-html5-fill"></i>
+                </a>
+              </span>
+              <span className="gap-2  dark:text-white">
+                CSS :
+                <a
+                  href="#"
+                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                >
+                  <i className="ri-css3-fill"></i>
+                </a>
+              </span>
+              <span className="gap-2  dark:text-white">
+                JAVASCRIPT :
+                <a
+                  href="#"
+                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                >
+                  <i className="ri-javascript-line "></i>
+                </a>
+              </span>
+              <span className="gap-2  dark:text-white">
+                REACT JS :
+                <a
+                  href="#"
+                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                >
+                  <i className="ri-reactjs-line"></i>
+                </a>
+              </span>
+            </div>
+            {/* Yaha per follow me ka trah skills bol kar uska aage skills rahega */}
           </div>
           {/* :::::::::: HERO LEFT END :::::::::: */}
           {/* :::::::::: HERO IMG :::::::::: */}

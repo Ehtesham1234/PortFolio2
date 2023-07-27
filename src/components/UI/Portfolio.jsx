@@ -56,14 +56,14 @@ const Portfolio = () => {
               className="text-smallTextColor dark:text-smallTextColorDark border border-solid border-smallTextColor dark:border-smallTextColorDark
             py-2 px-4 rounded-[8px]"
             >
-              Web Design
+              FrontEnd
             </button>
             <button
               //   onClick={() => setSelectTab("ux-design")}
               className="text-smallTextColor dark:text-smallTextColorDark  border border-solid border-smallTextColor dark:border-smallTextColorDark
             py-2 px-4 rounded-[8px]"
             >
-              Ux Design
+              Backend
             </button>
             {/* Yeh ux design ka jagha backend hoga aur web ka jagha frontend . yeh data portfolio,js mein hai
             Ux wala per click ker ne per deta udh raha isliye button k niche se setSelectTab hada diye ab not click hoga baad mein apne se 

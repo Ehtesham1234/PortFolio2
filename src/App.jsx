@@ -49,14 +49,28 @@ function App() {
     }
   }, [theme]);
 
+  const handleClick = (e) => {
+    e.preventDefault();
+    const targetAttr = e.target.getAttribute("href");
+    const location = document.querySelector(targetAttr).offsetTop;
+    window.scrollTo({
+      top: location - 80,
+      left: 0,
+    });
+  };
+
   //bg-[#e0d2b4] bg-gradient-to-r from-[#e0d2b4] via-[#e2ac6b] to-[#e2ac6b] dark:bg-[#212121] dark:bg-gradient-to-r dark:from-black dark:via-gray-500 dark:to-gray-700
   return (
     <Flowbite>
       {/* <DarkThemeToggle /> */}
-      <div className="dark:bg-[#161515] bg-[#ded1f3]">
-        <Header themeChange={themeChange} open={open} />
+      <div className="dark:bg-gradient-to-r dark:from-slate-900 dark:to-slate-700 bg-gradient-to-r from-teal-200 to-teal-500">
+        <Header
+          themeChange={themeChange}
+          open={open}
+          handleClick={handleClick}
+        />
         <main>
-          <Hero />
+          <Hero handleClick={handleClick} />
           <Services />
           <Portfolio />
           <Contact />

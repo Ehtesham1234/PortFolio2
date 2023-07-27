@@ -13,10 +13,15 @@ const Services = () => {
             What do i help
           </h2>
           <p className="lg:max-w-[600px] lg:mx-auto text-headingColor dark:text-headingColorDark   font-[500] text-[16px] leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            temporibus amet ea nemo sint et velit hic consectetur quasi optio
-            architecto repellat doloremque vero sapiente, nisi neque quo?
-            Perferendis, voluptates.
+            A dedicated Front-end Developer based in Asansol, India. <br></br>
+            As a Junior Front-End Developer.I possess an impressive arsenal of
+            skills in Html, Css, JavaScript, React, Redux,Tailwind, and Mui. I
+            excel in developing and maintaining responsive websites that offer a
+            smooth user experience. My expertise lies in crafting dynamic,
+            engaging interfaces through writing clean and optimized code and
+            utilizing cutting-edge development tools and techniques. I am also a
+            team player who thrives in collaborating with cross-functional teams
+            to produce outstanding web applications
           </p>
         </div>
         <div className="flex flex-col justify-center sm:py-12">
@@ -48,8 +53,13 @@ const Services = () => {
                           className="text-[15px] text-smallTextColor dark:text-smallTextColorDark group-hover:text-white dark:group-hover:text-black
                           group-hover:font-[600] leading-7"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Facilis ad magnam, earum ea iure esse?
+                          As a frontend developer, I create the user interface
+                          of websites and applications using HTML, CSS,
+                          JavaScript and Reactjs. I design and code the visual
+                          elements that users interact with to create responsive
+                          and interactive web pages. My goal is to create
+                          user-friendly interfaces that are easy to navigate and
+                          visually appealing.
                         </p>
                       </div>
                     </div>
@@ -90,8 +100,10 @@ const Services = () => {
                           className="text-[15px] text-smallTextColor dark:text-smallTextColorDark group-hover:text-white
                           dark:group-hover:text-black group-hover:font-[600] leading-7"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Facilis ad magnam, earum ea iure esse?
+                          As a backend developer, I create server-side logic and
+                          have experience in creating REST APIs for CRUD
+                          operations. My goal is to create efficient and
+                          scalable backend systems.
                         </p>
                       </div>
                     </div>
@@ -131,8 +143,12 @@ const Services = () => {
                           className="text-[15px] text-smallTextColor dark:text-smallTextColorDark group-hover:text-white
                           dark:group-hover:text-black group-hover:font-[600] leading-7"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Facilis ad magnam, earum ea iure esse?
+                          As a full stack developer, I work on both frontend and
+                          backend development. I am currently working on an
+                          e-commerce app, designing and implementing the entire
+                          stack. My goal is to create a seamless shopping
+                          experience for customers using my skills in MERN
+                          Stack.
                         </p>
                       </div>
                     </div>
