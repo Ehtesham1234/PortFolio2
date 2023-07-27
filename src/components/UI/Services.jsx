@@ -28,7 +28,7 @@ const Services = () => {
               transform -translate-x-1/2"
               ></div>
               {/* :::::::::: Left Card ::::::::::: */}
-              <div className=" mt-6 sm:mt-0 sm:mb-12">
+              <div className=" mt-6 sm:mt-0 sm:mb-12 relative">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-start w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pr-8">
@@ -68,8 +68,8 @@ const Services = () => {
               </div>
 
               {/* :::::::::: Right Card ::::::::::: */}
-              <div className=" mt-6 sm:mt-0 sm:mb-12">
-                <div className="flex items-center flex-col sm:flex-row">
+              <div className=" mt-6 sm:mt-0 sm:mb-12 relative ">
+                <div className="flex items-center flex-col sm:flex-row ">
                   <div className="flex justify-end w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pl-8">
                       <div
@@ -109,8 +109,8 @@ const Services = () => {
               </div>
 
               {/* :::::::::: Left Card ::::::::::: */}
-              <div className=" mt-6 sm:mt-0 sm:mb-12">
-                <div className="flex items-center flex-col sm:flex-row">
+              <div className=" mt-6 sm:mt-0 sm:mb-12 relative">
+                <div className="flex items-center flex-col sm:flex-row ">
                   <div className="flex justify-start w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pr-8">
                       <div
@@ -148,9 +148,21 @@ const Services = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-              {/* :::::::::: Right Card ::::::::::: */}
-              {/* <div className=" mt-6 sm:mt-0 sm:mb-12">
+export default Services;
+
+{
+  /* :::::::::: Right Card ::::::::::: */
+}
+{
+  /* <div className=" mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-end w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pl-8">
@@ -187,13 +199,5 @@ const Services = () => {
                     </figure>
                   </div>
                 </div>
-              </div> */}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Services;
+              </div> */
+}
