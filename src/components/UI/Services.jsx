@@ -28,7 +28,7 @@ const Services = () => {
               transform -translate-x-1/2"
               ></div>
               {/* :::::::::: Left Card ::::::::::: */}
-              <div className=" mt-6 sm:mt-0 sm:mb-12 relative">
+              <div className=" mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-start w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pr-8">
@@ -68,12 +68,13 @@ const Services = () => {
               </div>
 
               {/* :::::::::: Right Card ::::::::::: */}
-              <div className=" mt-6 sm:mt-0 sm:mb-12 relative ">
+              <div className=" mt-6 sm:mt-0 sm:mb-12 overflow-hidden ">
                 <div className="flex items-center flex-col sm:flex-row ">
                   <div className="flex justify-end w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pl-8">
                       <div
                         data-aos="fade-left"
+                        data-aos-offset
                         data-aos-delay="50"
                         data-aos-duration="1300"
                         className="bg-white dark:bg-black p-4 rounded shadow group hover:bg-primaryColor
@@ -109,7 +110,7 @@ const Services = () => {
               </div>
 
               {/* :::::::::: Left Card ::::::::::: */}
-              <div className=" mt-6 sm:mt-0 sm:mb-12 relative">
+              <div className=" mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row ">
                   <div className="flex justify-start w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pr-8">
