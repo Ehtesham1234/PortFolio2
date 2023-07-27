@@ -93,7 +93,7 @@ const Hero = ({ handleClick }) => {
                 </a>
               </span>
             </div>
-            <div className="flex item-center gap-9 mt-14">
+            <div className="flex item-center gap-9 mt-14 flex-wrap">
               <span className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]">
                 My Skills:
               </span>
