@@ -59,8 +59,8 @@ const Hero = ({ handleClick }) => {
               <span className="">
                 <i className="ri-apps-2-line"></i>
               </span>
-              Hi , I'm Ehtesham Usman. A Passionate Front-End React Developer
-              based in Asansol, India.
+              “Hi” I'm Ehtesham Usman. A Passionate Self Taught Front-End React
+              Developer based in Asansol, India.
             </p>
             <div className="flex item-center gap-9 mt-14">
               <span className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]">
