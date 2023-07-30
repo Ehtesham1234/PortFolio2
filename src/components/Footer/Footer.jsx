@@ -11,7 +11,7 @@ const Footer = () => {
             <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]">
               Do you wants to make beautiful products
             </h2>
-            <a href="#contact" download={Resume}>
+            <a href={Resume} download>
               <button
                 className="bg-primaryColor dark:bg-primaryColorDark text-white dark:text-black font-[500] flex items-center 
                 gap-2 hover:bg-headingColor  dark:hover:bg-headingColorDark ease-in duration-300
