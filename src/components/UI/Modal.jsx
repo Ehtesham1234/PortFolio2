@@ -10,7 +10,7 @@ const Modal = ({ activeID, setSHowModal }) => {
         className="w-11/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px]
       transform -translate-x-1/2 -translate-y-1/2 p-5"
       >
-        <div className="">
+        <div className=" h-[50%]">
           <figure>
             <img className="rounded-[8px]" src={portfolio.imgUrl} alt="" />
           </figure>
@@ -37,15 +37,24 @@ const Modal = ({ activeID, setSHowModal }) => {
               </span>
             ))}
           </div>
-
-          <a href="#" className="">
-            <button
-              className="bg-primaryColor text-white py-1 px-4 my-8 rounded-[8px] font-[500]
+          <div className="flex  gap-2">
+            <a href={portfolio.siteUrl} target="_blank" className="">
+              <button
+                className="bg-primaryColor text-white py-1 px-4 my-8 rounded-[8px] font-[500]
            hover:bg-headingColor ease-in duration-300 "
-            >
-              Live Site
-            </button>
-          </a>
+              >
+                Live Site
+              </button>
+            </a>
+            <a href={portfolio.gitUrl} target="_blank" className="">
+              <button
+                className="bg-primaryColor text-white py-1 px-4 my-8 rounded-[8px] font-[500]
+           hover:bg-headingColor ease-in duration-300 "
+              >
+                Git Repo
+              </button>
+            </a>
+          </div>
         </div>
         <button
           onClick={() => setSHowModal(false)}

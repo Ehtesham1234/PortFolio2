@@ -3,6 +3,32 @@ import data from "../../assets/data/portfolioData";
 import Modal from "./Modal";
 
 const Portfolio = () => {
+  // const [nextItems, setNextItems] = useState(6);
+  // const [originalData, setOriginalData] = useState(data); // Store the original data here
+  // const [portfolios, setPortFolios] = useState(data);
+  // const [selectTab, setSelectTab] = useState("all");
+  // const [showModal, setShowModal] = useState(false);
+  // const [activeID, setActiveID] = useState(null);
+
+  // const loadMoreHandler = () => {
+  //   setNextItems((prev) => prev + 3);
+  // };
+
+  // const showModalHAndler = (id) => {
+  //   setShowModal(true);
+  //   setActiveID(id);
+  // };
+
+  // useEffect(() => {
+  //   if (selectTab === "all") {
+  //     setPortFolios(originalData); // Reset the filtered data to the original data when "All" is selected
+  //   } else {
+  //     const filteredData = originalData.filter(
+  //       (item) => item.category === selectTab
+  //     );
+  //     setPortFolios(filteredData);
+  //   }
+  // }, [selectTab, originalData]);
   const [nextItems, setNextItems] = useState(6);
   const [portfolios, setPortFolios] = useState(data);
   const [selectTab, setSelectTab] = useState("all");
@@ -19,17 +45,10 @@ const Portfolio = () => {
   };
 
   useEffect(() => {
-    if (selectTab == "all") {
-      setPortFolios(data);
-    }
-    if (selectTab == "web-design") {
-      const filteredData = portfolios.filter(
-        (item) => item.category === "Web Design"
-      );
-      setPortFolios(filteredData);
-    }
-    if (selectTab == "ux-design") {
-      const filteredData = portfolios.filter((item) => item.category === "Ux");
+    if (selectTab === "all") {
+      setPortFolios(data); // Reset the filtered data to the original data when "All" is selected
+    } else {
+      const filteredData = data.filter((item) => item.category === selectTab);
       setPortFolios(filteredData);
     }
   }, [selectTab]);
@@ -52,22 +71,19 @@ const Portfolio = () => {
               All
             </button>
             <button
-              onClick={() => setSelectTab("web-design")}
+              onClick={() => setSelectTab("Front End")}
               className="text-smallTextColor dark:text-smallTextColorDark border border-solid border-smallTextColor dark:border-smallTextColorDark
             py-2 px-4 rounded-[8px]"
             >
               FrontEnd
             </button>
             <button
-              //   onClick={() => setSelectTab("ux-design")}
+              onClick={() => setSelectTab("Backend")}
               className="text-smallTextColor dark:text-smallTextColorDark  border border-solid border-smallTextColor dark:border-smallTextColorDark
             py-2 px-4 rounded-[8px]"
             >
               Backend
             </button>
-            {/* Yeh ux design ka jagha backend hoga aur web ka jagha frontend . yeh data portfolio,js mein hai
-            Ux wala per click ker ne per deta udh raha isliye button k niche se setSelectTab hada diye ab not click hoga baad mein apne se 
-            data ka structure bana ker backend hoja ga iske jagha */}
           </div>
         </div>
 
