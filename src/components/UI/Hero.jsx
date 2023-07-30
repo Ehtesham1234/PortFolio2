@@ -30,7 +30,7 @@ const Hero = ({ handleClick }) => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-              <a href="#contact" download={Resume}>
+              <a href={Resume} download>
                 <button
                   className="bg-primaryColor dark:bg-primaryColorDark text-white dark:text-black font-[500] flex items-center 
                 gap-2 hover:bg-headingColor  dark:hover:bg-headingColorDark ease-in duration-300
