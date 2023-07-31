@@ -2,6 +2,8 @@ import portfolioImg01 from "../images/Amazon-Clone.png";
 import portfolioImg02 from "../images/MoviesApp.png";
 import portfolioImg03 from "../images/Lyrics-app.png";
 import portfolioImg04 from "../images/CrudAppFirebase.png";
+import portfolioImg05 from "../images/Meme-generator.png";
+import portfolioImg06 from "../images/Backstage-Talks-Clone.png";
 
 const portfolios = [
   {
@@ -70,6 +72,27 @@ const portfolios = [
     ],
     siteUrl: "https://ehtesham1234.github.io/Crud-App-Firebase/",
     gitUrl: "https://github.com/Ehtesham1234/Crud-App-Firebase",
+  },
+  {
+    id: "05",
+    imgUrl: portfolioImg05,
+    category: "Front End",
+    title: "Meme Generator",
+    description:
+      "Fetching random meme Images from an API and writing meme sentence on it through input , using React Redux Toolkit for state management",
+    technologies: ["React", "Html", "Css", "Javascript", "Redux Toolkit"],
+    siteUrl: "https://ehtesham1234.github.io/meme-generator/",
+    gitUrl: "https://github.com/Ehtesham1234/meme-generator",
+  },
+  {
+    id: "06",
+    imgUrl: portfolioImg06,
+    category: "Front End",
+    title: "Backstage-Talks Clone",
+    description: "Implemented the scroll feature of backstage talks magzine",
+    technologies: ["React", "Html", "Css", "Javascript"],
+    siteUrl: "https://ehtesham1234.github.io/backstage-talks/",
+    gitUrl: "https://github.com/Ehtesham1234/backstage-talks",
   },
 ];
 

@@ -62,15 +62,15 @@ const Hero = ({ handleClick }) => {
               “Hi” I'm Ehtesham Usman. A Passionate Self Taught Front-End React
               Developer based in Asansol, India.
             </p>
-            <div className="flex item-center gap-9 mt-14">
-              <span className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]">
+            <div className="flex item-center gap-9 mt-14 flex-wrap">
+              <span className="text-smallTextColor dark:text-smallTextColorDark text-[20px] font-[600]">
                 Follow me:
               </span>
               <span className="">
                 <a
                   href="https://github.com/Ehtesham1234"
                   target="_blank"
-                  className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]"
+                  className="text-smallTextColor dark:text-smallTextColorDark text-[20px] font-[600]"
                 >
                   <i className="ri-github-fill"></i>
                 </a>
@@ -79,7 +79,7 @@ const Hero = ({ handleClick }) => {
                 <a
                   href="https://www.linkedin.com/in/ehtesham-usman-aa41a022b/"
                   target="_blank"
-                  className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]"
+                  className="text-smallTextColor dark:text-smallTextColorDark text-[20px] font-[600]"
                 >
                   <i className="ri-linkedin-box-fill"></i>
                 </a>
@@ -87,21 +87,21 @@ const Hero = ({ handleClick }) => {
               <span className="">
                 <a
                   href="#instagram"
-                  className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]"
+                  className="text-smallTextColor dark:text-smallTextColorDark text-[20px] font-[600]"
                 >
                   <i className="ri-instagram-line"></i>
                 </a>
               </span>
             </div>
             <div className="flex item-center gap-9 mt-14 flex-wrap">
-              <span className="text-smallTextColor dark:text-smallTextColorDark text-[15px] font-[600]">
+              <span className="text-smallTextColor dark:text-smallTextColorDark text-[20px] font-[600]">
                 My Skills:
               </span>
               <span className="gap-2 dark:text-white">
                 HTML :
                 <a
                   href="#"
-                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                  className="text-smallTextColor dark:text-headingColorDark text-[20px] font-[600]"
                 >
                   <i className="ri-html5-fill"></i>
                 </a>
@@ -110,7 +110,7 @@ const Hero = ({ handleClick }) => {
                 CSS :
                 <a
                   href="#"
-                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                  className="text-smallTextColor dark:text-headingColorDark text-[20px] font-[600]"
                 >
                   <i className="ri-css3-fill"></i>
                 </a>
@@ -119,7 +119,7 @@ const Hero = ({ handleClick }) => {
                 JAVASCRIPT :
                 <a
                   href="#"
-                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                  className="text-smallTextColor dark:text-headingColorDark text-[20px] font-[600]"
                 >
                   <i className="ri-javascript-line "></i>
                 </a>
@@ -128,7 +128,7 @@ const Hero = ({ handleClick }) => {
                 REACT JS :
                 <a
                   href="#"
-                  className="text-smallTextColor dark:text-headingColorDark text-[15px] font-[600]"
+                  className="text-smallTextColor dark:text-headingColorDark text-[20px] font-[600]"
                 >
                   <i className="ri-reactjs-line"></i>
                 </a>
@@ -150,9 +150,9 @@ const Hero = ({ handleClick }) => {
 
           <div
             className="md:basis-1/5 flex justify-between text-center mt-18 flex-wrap gap-3 md:mt-0 
-          md:flex-col md:justify-end md:text-end "
+          md:flex-col md:justify-end md:text-end items-center "
           >
-            <div className="mb-10">
+            <div className="mb-10 px-20 xs:px-0">
               <h2 className="text-headingColor dark:text-headingColorDark font-[700] text-[32px]">
                 <CountUp start={0} end={1} duration={2} suffix="*" />
               </h2>
@@ -160,7 +160,7 @@ const Hero = ({ handleClick }) => {
                 Year of Experiance
               </h4>
             </div>
-            <div className="mb-10">
+            <div className="mb-10 px-[7rem] xs:px-0">
               <h2 className="text-headingColor dark:text-headingColorDark font-[700] text-[32px]">
                 <CountUp start={0} end={100} duration={2} suffix="%" />
               </h2>
@@ -168,9 +168,9 @@ const Hero = ({ handleClick }) => {
                 Succes Rate
               </h4>
             </div>{" "}
-            <div className="mb-10">
+            <div className="mb-10 px-20 xs:px-0">
               <h2 className="text-headingColor dark:text-headingColorDark font-[700] text-[32px]">
-                <CountUp start={0} end={38} duration={2} suffix="*" />
+                <CountUp start={0} end={30} duration={2} suffix="*" />
               </h2>
               <h4 className="text-headingColor dark:text-headingColorDark font-[600] text-[32px]">
                 Project Completed
